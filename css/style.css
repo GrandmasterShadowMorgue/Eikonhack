@@ -1,0 +1,75 @@
+body {
+    background-image: url("../images/img.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    /*background-color: #1a1b23; */
+}
+
+
+.header{
+	font: 62.5% "Trebuchet MS", sans-serif;
+	margin-top: 2em;
+    color: #f06c64;
+    width:100%;
+    text-align:center;
+}
+.demoHeaders {
+	width: 200px;
+}	
+
+.search{
+    float:left;
+    margin-left: 10px;
+}
+
+.date1{
+    display: inline-block;
+    margin:0 auto;
+}
+
+.date2{
+    float:right;
+    margin-right: 10px;
+}
+
+.container {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+.news {
+    font: 62.5% "Trebuchet MS", sans-serif;
+    margin-top: 2em;
+    color: #f06c64;
+    text-align:center;
+    float: left;
+    width: 40%;
+    height: 100%;
+    position: relative;
+ }
+
+ #accordion{
+
+ }
+
+.chart{
+    margin-top: 3em;
+    float: right;
+    width: 56%;
+    position: relative;
+    padding-left: 10px;
+}
+
+#chart_div{
+    float: right;
+    width: 700px; 
+    height: 400px;
+}
+
+#r_slider{
+    float: right;
+    width: 700px; 
+    height: 300px;   
+}
